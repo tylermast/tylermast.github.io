@@ -1,7 +1,18 @@
 body
 {
-    background-color: #000;
-    color: #fff;
+    background-color: #F6F6F6;
+}
+h3
+{
+    font-size: 24px;
+}
+h4
+{
+    font-size: 20px;
+}
+p
+{
+    font-size: 16px;
 }
 .bg
 {
@@ -10,40 +21,64 @@ body
     position: absolute;
     width: 100%;
     height: 350px;
+    z-index: -1;
     top: 0;
     left: 0;
-    z-index: -1;
 }
-.jumbotron
+.bg_black
 {
-    margin-bottom: 0px;
-    height: 350px;
-    color:white;
-    text-shadow: black 0.3em 0.3em 0.3em;
-    background: transparent;
+    background-color: #000000;
+    color: #F6F6F6;
+}
+.bordered
+{
+    border-style: solid;
+}
+.btn-primary
+{
+    background-color: #000000;
+    color: #F6F6F6;
 }
 .container-fluid
 {
     padding: 30px 25px;
 }
-.btn-primary
+.grey
 {
-    background-color: #000000;
-    color: #fff;
+    background-color: #2B2B2B;
 }
-.bg_black
+.jumbotron
 {
-    background-color: #000000;
-    color: #fff;
+    height: 350px;
+    color:#F6F6F6;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    background: transparent;
 }
 .logo
 {
-    color: #000CDA;
+    color: #DE1B1B;
     font-size: 200px;
 }
 .logo-small
 {
-    color: #000CDA;
+    color: #DE1B1B;
+}
+.separator
+{
+    border-color: #DE1B1B;
+    border-style: solid;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.white
+{
+    color: #F6F6F6;
+}
+.vertical-align
+{
+    align-items: center;
+    display: flex
 }
 @media screen and (max-width: 768px)
 {
