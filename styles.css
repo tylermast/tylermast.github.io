@@ -33,11 +33,32 @@ p
 .bordered
 {
     border-style: solid;
+    border-color: #2B2B2B;
+    border-width: 5px;
 }
 .btn-primary
 {
     background-color: #000000;
     color: #F6F6F6;
+}
+.center-outer
+{
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.center-middle
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+.center-inner
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 25px;
+    width: 400px;
 }
 .container-fluid
 {
