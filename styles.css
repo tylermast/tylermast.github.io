@@ -53,6 +53,7 @@ p
     color:#F6F6F6;
     text-shadow: black 0.3em 0.3em 0.3em;
     background: transparent;
+    margin-bottom: 0px;
 }
 .logo
 {
@@ -68,6 +69,7 @@ p
     border-color: #DE1B1B;
     border-style: solid;
     margin-top: 50px;
+    margin-bottom: 50px;
     margin-left: 100px;
     margin-right: 100px;
 }
